@@ -2,8 +2,8 @@ import { Component, Prop } from '@stencil/core';
 import { foo } from '../../utils';
 
 @Component({
-  tag: 'my-component',
-  styleUrl: 'my-component.css',
+  tag: 'x-bar',
+  styleUrl: 'bar.css',
   shadow: true
 })
 export class MyComponent {
